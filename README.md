@@ -30,4 +30,8 @@ And this one more in scripts:
 npm run build
 ```
 
+## Step 4
+
+You can check you're livingcss in your local env like: http://localhost:3000/living-css/html/
+
 ### Enjoy \o/ !
