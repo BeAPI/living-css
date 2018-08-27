@@ -8293,6 +8293,12 @@
    *	</li>
    * </ul>
    */
+  #svg-sprite {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden; }
+  
   .icon {
     display: inline-block;
     vertical-align: middle;
@@ -8300,11 +8306,9 @@
     height: 20px;
     width: 20px; }
   
-  .no-svg .visuallyhidden, .no-svg .checkbox--custom input[type="checkbox"], .checkbox--custom .no-svg input[type="checkbox"], .no-svg
-  .checkbox--custom input[type="radio"],
-  .checkbox--custom .no-svg input[type="radio"], .no-svg .radio--custom input[type="checkbox"], .radio--custom .no-svg input[type="checkbox"], .no-svg
-  .radio--custom input[type="radio"],
-  .radio--custom .no-svg input[type="radio"] {
+  .no-svg .visuallyhidden, .no-svg .checkbox--custom input[type="checkbox"], .checkbox--custom .no-svg input[type="checkbox"],
+  .no-svg .checkbox--custom input[type="radio"], .checkbox--custom .no-svg input[type="radio"], .no-svg .radio--custom input[type="checkbox"], .radio--custom .no-svg input[type="checkbox"],
+  .no-svg .radio--custom input[type="radio"], .radio--custom .no-svg input[type="radio"] {
     position: static;
     height: auto;
     width: auto; }
@@ -9237,9 +9241,6 @@
    *		<ul class="menu__list sf-menu">
    *			<li class="menu-item current-menu-item menu-item-has-children">
    *				<a href="01-home.php">Home</a>
-   *				<ul class="sub-menu">
-   *					<li class="menu-item"><a href="../livingcss/html/index.html">Living CSS</a></li>
-   *				</ul>
    *			</li>
    *			<li class="menu-item"><a href="02-page-default.php">Page default</a></li>
    *			<li class="menu-item"><a href="03-archive-default.php">Archive default</a></li>
@@ -9820,9 +9821,6 @@
 	<ul class="menu__list sf-menu">
 		<li class="menu-item current-menu-item menu-item-has-children">
 			<a href="01-home.php">Home</a>
-			<ul class="sub-menu">
-				<li class="menu-item"><a href="../livingcss/html/index.html">Living CSS</a></li>
-			</ul>
 		</li>
 		<li class="menu-item"><a href="02-page-default.php">Page default</a></li>
 		<li class="menu-item"><a href="03-archive-default.php">Archive default</a></li>
@@ -9835,9 +9833,6 @@
 	&lt;ul class&#x3D;&quot;menu__list sf-menu&quot;&gt;
 		&lt;li class&#x3D;&quot;menu-item current-menu-item menu-item-has-children&quot;&gt;
 			&lt;a href&#x3D;&quot;01-home.php&quot;&gt;Home&lt;/a&gt;
-			&lt;ul class&#x3D;&quot;sub-menu&quot;&gt;
-				&lt;li class&#x3D;&quot;menu-item&quot;&gt;&lt;a href&#x3D;&quot;../livingcss/html/index.html&quot;&gt;Living CSS&lt;/a&gt;&lt;/li&gt;
-			&lt;/ul&gt;
 		&lt;/li&gt;
 		&lt;li class&#x3D;&quot;menu-item&quot;&gt;&lt;a href&#x3D;&quot;02-page-default.php&quot;&gt;Page default&lt;/a&gt;&lt;/li&gt;
 		&lt;li class&#x3D;&quot;menu-item&quot;&gt;&lt;a href&#x3D;&quot;03-archive-default.php&quot;&gt;Archive default&lt;/a&gt;&lt;/li&gt;
